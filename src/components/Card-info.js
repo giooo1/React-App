@@ -11,7 +11,7 @@ export default function CardInfo(props) {
 
   return (
     <div className="card">
-      <img className="image" src={props.img} />
+      <img className="image" src={props.coverImg} />
       {badgeText && <div className="soldout">{badgeText}</div>}
       <div className="star">
         <img className="star-icon" src={star} />

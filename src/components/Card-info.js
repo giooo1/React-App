@@ -15,9 +15,9 @@ export default function CardInfo(props) {
       {badgeText && <div className="soldout">{badgeText}</div>}
       <div className="star">
         <img className="star-icon" src={star} />
-        <span className="gray">{props.rating}</span>
-        <span className="gray">({props.reviewCount}) *</span>
-        <span className="gray">{props.country}</span>
+        <span className="gray">{props.stats.rating}</span>
+        <span className="gray">({props.stats.reviewCount}) *</span>
+        <span className="gray">{props.location}</span>
       </div>
       <p>{props.title}</p>
       <p>
